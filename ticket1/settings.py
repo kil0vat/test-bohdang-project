@@ -11,21 +11,15 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-<<<<<<< HEAD
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
-=======
 
->>>>>>> 5d85341923385aafa51653d558122ef954454e95
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
 SECRET_KEY = 'd+_ce0z#+yy4^!2cxe8y1q_4qzqk14smrgpk2=7sz#y@^x%kj5'
-=======
 SECRET_KEY = 'oy6bq7@p5__qhmg4@glar&fa(%%3#p2+om#v5**-xew1^*^nl!'
->>>>>>> 5d85341923385aafa51653d558122ef954454e95
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -44,10 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'contact_info',
-=======
->>>>>>> 5d85341923385aafa51653d558122ef954454e95
 )
 
 MIDDLEWARE_CLASSES = (
