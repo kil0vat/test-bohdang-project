@@ -6,8 +6,8 @@ from django.http import HttpResponse
 
 def base(request):
 	contact_info_list = ContactInfo.objects.all()
-	template = loader.get_template('contacts_info/base.html')
-	context = RequestContext('', {
-		'contact_info_list': contact_info_list
+	template = loader.get_template('contact_info/base.html')
+	context = RequestContext(request, {
+		'contact_info_list': contact_info_list,
 	})
 	return HttpResponse(template.render(context))
